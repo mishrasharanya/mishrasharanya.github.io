@@ -1,0 +1,11 @@
+/* Subtle polish for badges and spacing */
+.pill-row { display:flex; flex-wrap:wrap; gap:.5rem; margin: .5rem 0 1rem; }
+.pill { padding:.3rem .6rem; border:1px solid #e1e4e8; border-radius:999px; font-size:.85rem; }
+
+
+/* Make content breathe */
+section, .page-content { line-height:1.7; }
+
+
+/* Tighten lists */
+ul { margin-top:.4rem; }

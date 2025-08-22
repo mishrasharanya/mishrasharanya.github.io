@@ -1,0 +1,33 @@
+title: "Sharanya Mishra"
+description: "Data Science • ML • Time Series • Robotics"
+url: "https://mishrasharanya.github.io"
+baseurl: ""
+# Minimal theme with clean typography
+theme: minima
+
+
+# Show nav links across the top
+header_pages:
+- projects.md
+- publications.md
+- resume.md
+- contact.md
+
+
+# Social handles (optional; shows in footer)
+minima:
+social_links:
+- { platform: github, user_url: "https://github.com/mishrasharanya" }
+- { platform: linkedin, user_url: "https://www.linkedin.com/in/sharanyamishra8" }
+
+
+# Kramdown markdown settings
+markdown: kramdown
+kramdown:
+input: GFM
+
+
+# Plugins (optional, but helpful)
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
